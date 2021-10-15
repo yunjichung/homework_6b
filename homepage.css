@@ -1,0 +1,99 @@
+html {
+    font-family: 'Rowdies';
+    background-color: #FFEEEC;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.homenav {
+    color: #EB7B6D; /*color settings*/
+    font-size: 20px; text-decoration: none; /*text settings*/
+}
+.productnav {
+    color: #987963; /*color settings*/
+    font-size: 20px; text-decoration: none; /*text settings*/
+}
+.aboutnav {
+    color: #987963; /*color settings*/
+    font-size: 20px; text-decoration: none; /*text settings*/
+}
+.cartnav {
+    color: #987963; /*color settings*/
+    font-size: 20px; text-decoration: none; /*text settings*/
+}
+#home {
+    position: absolute; top: 35px; left: 60px;
+}
+.ulnav {
+    position: absolute; top: 20px; right: 60px;
+}
+.linav {
+    display: inline;
+}
+#spacing {
+    margin-right: 25px;
+}
+
+#maincontainer {
+    position: relative; margin-top: 80px;
+}
+#mainimage {
+    width: 100%;
+}
+#bunbun {
+    color: #FFFFFF;
+    font-size: 70px;
+}
+.pinkbutton {
+    background-color: #EB7B6D; color: #FFFFFF; /*color settings*/
+    border: none; border-radius: 35px; /*button settings*/
+    font-size: 20px; font-family: 'Rowdies'; /*text settings*/
+    text-align: center; padding: 10px 30px 10px 30px; /*button layouts*/
+}
+#bunbunbutton {
+    position: absolute; left: 50%; transform: translate(-50%, 0); bottom: 20%; /*button layouts*/
+    text-align: center; /*text settings*/
+}
+
+#favorite {
+    color: #EB7B6D; /*color settings*/
+    font-size: 30px; text-align: center; /*text settings*/
+    margin-top: 45px; /*layout settings*/
+}
+.fav0 {
+    display: flex; flex-direction: column; center; align-items: center;
+}
+.fav {
+    display: flex; flex-direction: column; center; align-items: center; margin-left: 100px;
+}
+.favtitle {
+    font-size: 20px; /*text settings*/
+    color: #987963; /*color settings*/
+    display: block;  margin-bottom: 20px; /*layout settings*/
+}
+.favimage {
+    display: block; width: 150px; height: 150px; margin-bottom: 15px;
+}
+.favpreview {
+    background-color: #987963; color: #FFFFFF; /*color settings*/
+    font-size: 15px; text-align: center; font-family: 'Rowdies'; /*text settings*/
+    border: none; border-radius: 35px;
+    display: block; padding: 5px 15px 5px 15px; margin-bottom: 10px; /*layout settings*/
+}
+.favbuynow {
+    background-color: #EB7B6D; color: #FFFFFF; /*color settings*/
+    font-size: 15px; font-family: 'Rowdies'; text-align: center; /*text settings*/
+    border: none; border-radius: 35px;
+    display: block; padding: 5px 15px 5px 15px; /*layout settings*/
+}
+.lifav, .ulfav {
+    display: inline-block; padding: 0;
+}
+#ourfav {
+    display: flex; justify-content: center;
+}
+

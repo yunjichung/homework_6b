@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="product.css">
+        <title>Bun Bun Bakery</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+        <script defer src="product.js"></script>
+        <script src="jquery-3.6.0.min.js"></script>
+    </head>
+
+    <header id="header"></header>
+
+    <body>
+        <div class="left">
+            <div class="imgbg">
+                <img class="indiimage" src="images/original.png" alt="original">
+            </div>
+            <div class="lefttext">
+                <div><a class="back" href="productlist.html">Back to All Products</a></div>
+                <div><p class="indititle">Original</p></div>
+                <div><p class="indides">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p></div>
+                <div><p class="indiprice">$4.50</p></div>
+                <div><p class="select">Select 1 Glaze</p></div>
+                <form>
+                    <div class="button">
+                        <label class="container" id="space">
+                            <input type="radio" name="glazingselection" value="none" id="none" >
+                            <span class="checkmark">None</span>
+                        </label>
+                        <label class="container">
+                            <input type="radio" name="glazingselection" value="sugar" id="sugar">
+                            <span class="checkmark">Sugar-Milk</span>
+                        </label>
+                    </div>
+                    <div class="button">
+                        <label class="container" id="space">
+                            <input type="radio" name="glazingselection" value="vanilla" id="vanilla">
+                            <span class="checkmark2">Vanilla-Milk</span>
+                        </label>
+                        <label class="container">
+                            <input type="radio" name="glazingselection" value="chocolate" id="chocolate">
+                            <span class="checkmark2">Double-Chocolate</span>
+                        </label>
+                    </div>
+                </form>
+                <div><p class="select">Select Count</p></div>
+                <form>
+                    <div class="button">
+                        <label class="container" id="space">
+                            <input type="radio" name="countselection" value="1">
+                            <span class="checkmark3">1</span>
+                        </label>
+                        <label class="container" id="space">
+                            <input type="radio" name="countselection" value="3">
+                            <span class="checkmark3">3</span>
+                        </label>
+                        <label class="container" id="space">
+                            <input type="radio" name="countselection" value="6">
+                            <span class="checkmark3">6</span>
+                        </label>
+                        <label class="container">
+                            <input type="radio" name="countselection" value="12">
+                            <span class="checkmark3">12</span>
+                        </label>
+                    </div>
+                </form>
+                <br><br>
+                <div>
+                    <div class="button">
+                        <button onclick="appendItems()" class="cartbutton" id="addtocart">Add to Cart</button>
+                        <!-- <input class="cartbutton" id="addtocart" type="button" value="Add to Cart"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ourfav">
+            <ul class="ulfav">
+                <li class="lifav">
+                    <div class="fav0">
+                        <div><p class="favtitle">Blackberry</p></div>
+                        <div class="smallbg">
+                            <img class="favimage" src="images/blackberry.png" alt="blackberry">
+                        </div>
+                    </div>
+                </li>
+                <li class="lifav">
+                    <div class="fav">
+                        <div><p class="favtitle">Walnut</p></div>
+                        <div class="smallbg">
+                            <img class="favimage" src="images/walnut.png" alt="walnut">
+                        </div>
+                    </div>
+                </li>
+                <li class="lifav">
+                    <div class="fav">
+                        <div><p class="favtitle">Original (Gluten-free)</p></div>
+                        <div class="smallbg">
+                            <img class="favimage" src="images/original.png" alt="originalglutenfree">
+                        </div>
+                    </div>
+                </li>
+                <li class="lifav">
+                    <div class="fav">
+                        <div><p class="favtitle">Pumpkin Spice</p></div>
+                        <div class="smallbg">
+                            <img class="favimage" src="images/pumpkin.png" alt="pumpkinspice">
+                        </div>
+                    </div>
+                </li>
+                <li class="lifav">
+                    <div class="fav">
+                        <div><p class="favtitle">Caramel Pecan</p></div>
+                        <div class="smallbg">
+                            <img class="favimage" src="images/original.png" alt="caramel">
+                        </div>
+                    </div>
+                </li>
+                </div>
+            </ul>
+        </div>
+    <script src="nav.js"></script>
+    </body>
+</html>

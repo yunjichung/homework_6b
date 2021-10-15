@@ -1,0 +1,93 @@
+html {
+    font-family: 'Rowdies'; background-color: #FFEEEC;
+}
+
+.title {
+    color: #EB7B6D;
+}
+
+.homenav {
+    color: #987963; /*color settings*/
+    font-size: 20px; text-decoration: none; /*text settings*/
+}
+.productnav {
+    color: #987963; /*color settings*/
+    font-size: 20px; text-decoration: none; /*text settings*/
+}
+.aboutnav {
+    color: #987963; /*color settings*/
+    font-size: 20px; text-decoration: none; /*text settings*/
+}
+.cartnav {
+    color: #EB7B6D; /*color settings*/
+    font-size: 20px; text-decoration: none; /*text settings*/
+}
+#home {
+    position: absolute;
+    top: 35px; left: 60px;
+}
+.ulnav {
+    position: absolute;
+    top: 20px; right: 60px;
+}
+.linav {
+    display: inline;
+}
+#spacing {
+    margin-right: 25px;
+}
+
+.item {
+    display: flex;
+    position: relative;
+    align-items: flex-start; 
+}
+
+.imgbg {
+    background-color: #EB7B6D; /*color settings*/
+    width: 125px; height: 125px; /*text settings*/
+    border-radius: 1000px;
+    position: relative; margin-right: 50px;/*spacing settings*/
+}
+.itemimage {
+    width: 117px; height: 117px; position: absolute; /*layout settings*/
+    top: 4px; left: 4px;
+}
+.itemname {
+    font-size: 22px; color: #987963; /*text settings*/
+    margin-right: 100px; margin-top: 30px; /*layout settings*/
+}
+.itemglaze {
+    font-size: 15px; color: #B9A394; /*text settings*/
+    margin-right: 100px; margin-top: 42px; /*layout settings*/
+}
+.itemcount {
+    font-size: 15px; color: #B9A394; /*text settings*/
+    margin-right: 100px; margin-top: 42px; /*layout settings*/
+}
+.itemprice {
+    font-size: 15px; color: #EB7B6D; /*text settings*/
+    margin-top: 42px; /*layout settings*/
+}
+
+.totalprice {
+    font-size: 22px; color: #EB7B6D;
+    margin-bottom: 15px;
+}
+
+.entire {
+    position: relative;
+    width: fit-content;
+    margin: auto; margin-top: 100px;
+}
+
+.paynow {
+    background-color: #EB7B6D; color: #FFFFFF; /*color settings*/
+    font-size: 15px; text-align: center; border: none; border-radius: 35px; font-family: 'Rowdies'; /*text settings*/
+    padding: 10px 40px 10px 40px; display: inline-block; /*layout settings*/
+}
+
+.pay {
+    position: absolute;
+    right: 0;
+}

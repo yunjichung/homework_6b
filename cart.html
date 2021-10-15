@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="cart.css">
+        <title>Bun Bun Bakery</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+        <script defer src="product.js"></script>
+        <script src="jquery-3.6.0.min.js"></script>
+    </head>
+
+    <header id="header"></header>
+
+    <body>
+        <div id="navigation"></div>
+        <div class="entire">
+            <h1 class="title">Cart</h1>
+            <a href="" id="clearCartBtn" onclick="resetCartCount()">Clear</a>
+            <div class="item">
+                <div class="imgbg">
+                    <img class="itemimage" src="images/original.png" alt="original">
+                </div>
+                <div class="itemname"><p>Original</p></div>
+                <div class="itemglaze"><p>Sugar-Milk</p></div>
+                <div class="itemcount"><p>Pack of 1</p></div>
+                <div class="itemprice"><p>$4.50</p></div>
+            </div>
+            <div class="pay">
+                <h3 class="totalprice">Total: $4.50</h3>
+            <button class="paynow">Pay Now</button>
+            </div>
+        </div>
+    <script src="nav.js"></script>
+    </body>
+</html>

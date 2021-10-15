@@ -1,0 +1,106 @@
+html {
+    font-family: 'Rowdies'; background-color: #FFEEEC;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.homenav {
+    color: #987963; /*color settings*/
+    font-size: 20px; text-decoration: none; /*text settings*/
+}
+.productnav {
+    color: #EB7B6D; /*color settings*/
+    font-size: 20px; text-decoration: none; /*text settings*/
+}
+.aboutnav {
+    color: #987963; /*color settings*/
+    font-size: 20px; text-decoration: none; /*text settings*/
+}
+.cartnav {
+    color: #987963; /*color settings*/
+    font-size: 20px; text-decoration: none; /*text settings*/
+}
+#home {
+    position: absolute; top: 35px; left: 60px; /*layout settings*/
+}
+.ulnav {
+    position: absolute; top: 20px; right: 60px;
+}
+.linav {
+    display: inline;
+}
+#spacing {
+    margin-right: 25px;
+}
+
+.fulllist {
+    position: relative; margin-top: 430px;
+}
+#exception {
+    margin-top: 0;
+}
+
+.left {
+    display: flex; margin-top: 120px; margin-left: 250px;
+}
+.lefttext {
+    margin-left: 40px;
+}
+.imgbg {
+    background-color: #EB7B6D; /*color settings*/
+    width: 250px; height: 250px; border-radius: 1000px; position: relative /*layout settings*/
+}
+.indiimage {
+    width: 230px; height: 230px; position: absolute;
+    top: 10px; left: 10px;
+}
+.indititle {
+    font-size: 30px; color: #987963;
+}
+.indides {
+    width: 350px; color: #B9A394;
+}
+.indiprice {
+    color: #EB7B6D;
+}
+.indibutton {
+    background-color: #EB7B6D; color: #FFFFFF; /*color settings*/
+    font-size: 15px; text-align: center; font-family: 'Rowdies'; /*text settings*/
+    border: none; border-radius: 35px;
+    padding: 5px 15px 5px 15px; /*layout settings*/
+}
+
+.right {
+    display: flex; margin-top: 70px; margin-right: 250px;
+    position: absolute; right: 0;
+}
+.righttext {
+    margin-right: 40px; position: relative;
+}
+.indititleright {
+    font-size: 30px; text-align: right; /*text settings*/
+    color: #987963; /*color settings*/
+} 
+.indidesright {
+    width: 350px;
+    color: #B9A394;
+    text-align: right;
+}
+.indipriceright {
+    color: #EB7B6D;
+    text-align: right;
+}
+.indibuttonright {
+    background-color: #EB7B6D; color: #FFFFFF; /*color settings*/
+    font-size: 15px; font-family: 'Rowdies'; /*text settings*/
+    text-align: center; border: none; border-radius: 35px;
+    padding: 5px 15px 5px 15px; position: absolute; right: 0; /*layout settings*/
+}
+
+li, ul {
+    display: block;
+}
