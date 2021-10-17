@@ -17,19 +17,29 @@
         <div id="navigation"></div>
         <div class="entire">
             <h1 class="title">Cart</h1>
-            <a href="" id="clearCartBtn" onclick="resetCartCount()">Clear</a>
-            <div class="item">
-                <div class="imgbg">
-                    <img class="itemimage" src="images/original.png" alt="original">
-                </div>
-                <div class="itemname"><p>Original</p></div>
-                <div class="itemglaze"><p>Sugar-Milk</p></div>
-                <div class="itemcount"><p>Pack of 1</p></div>
-                <div class="itemprice"><p>$4.50</p></div>
+            <div class="itemlist">
+                    <!-- CART ITEM element START -->
+
+                    <!-- <div class="item">
+                        <div class="imgbg">
+                            <img class="itemimage" src="images/original.png" alt="original">
+                        </div>
+                        <div class="itemname"><p>Original</p></div>
+                        <div class="itemglaze"><p>Sugar-Milk</p></div>
+                        <div class="itemcount"><p>Pack of 1</p></div>
+                        <div class="itemprice"><p>$4.50</p></div>
+                    </div> -->
+
+                    <!-- CART ITEM element END -->
             </div>
+            
+            
+        </div>
+        <div class="hovercontainer">
             <div class="pay">
-                <h3 class="totalprice">Total: $4.50</h3>
-            <button class="paynow">Pay Now</button>
+                <a href="" id="clearCartBtn" onclick="resetCartCount()">Clear Cart</a>
+                <h3 class="totalpricecss">Total: $<span class="totalprice">0.00</span></h3>
+                <button class="paynow">Pay Now</button>
             </div>
         </div>
     <script src="nav.js"></script>

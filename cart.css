@@ -40,7 +40,8 @@ html {
 .item {
     display: flex;
     position: relative;
-    align-items: flex-start; 
+    align-items: flex-start;
+    margin-bottom: 20px;
 }
 
 .imgbg {
@@ -70,15 +71,15 @@ html {
     margin-top: 42px; /*layout settings*/
 }
 
-.totalprice {
+.totalpricecss {
     font-size: 22px; color: #EB7B6D;
     margin-bottom: 15px;
 }
 
 .entire {
     position: relative;
-    width: fit-content;
     margin: auto; margin-top: 100px;
+    max-width: 1000px;
 }
 
 .paynow {
@@ -87,7 +88,19 @@ html {
     padding: 10px 40px 10px 40px; display: inline-block; /*layout settings*/
 }
 
+.hovercontainer {
+    z-index: -1;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100vh;
+    /* max-width: 1000px; */
+    width: 100vw;
+}
+
 .pay {
+    z-index: 100;
     position: absolute;
-    right: 0;
+    right: 300px;
+    bottom: 50px;
 }
