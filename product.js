@@ -1,3 +1,10 @@
+window.onload = function () {
+    if (localStorage.getItem("globalCart") === null) {
+        localStorage.setItem("globalCart", JSON.stringify([]));
+    }
+}
+
+
 $('#none').click(function(){
     $('.indiimage').attr('src','./images/original.png')
 });
@@ -46,6 +53,8 @@ function appendItems () {
     arrayOfItems = JSON.parse(localStorage.getItem("globalCart")); //get global
     arrayOfItems.push(newOriginal); //add new item
     localStorage.setItem("globalCart", JSON.stringify(arrayOfItems)); //update global
+
+    console.log(arrayOfItems);
 }
 
 function price(count) {
@@ -69,8 +78,6 @@ $('#addtocart').click(function(){
     count++; //update count
     localStorage.setItem("cartNumber",count); //update global
     updateCartIndicator();
-
-
 });
 
 function updateCartIndicator(){
