@@ -42,6 +42,9 @@ const item = class {
 }
 
 function appendItems () {
+    if ($('input[name="glazingselection"]:checked').val() == undefined || $('input[name="countselection"]:checked').val() == undefined){
+        window.alert("Fill out all option selection to add to cart!");
+    } 
     const newOriginal = new item(
         'Original',
         $('input[name="glazingselection"]:checked').val(),
@@ -74,10 +77,13 @@ function price(count) {
 }
 
 $('#addtocart').click(function(){
-    var count = localStorage.getItem("cartNumber"); //get global
-    count++; //update count
-    localStorage.setItem("cartNumber",count); //update global
-    updateCartIndicator();
+    if ($('input[name="glazingselection"]:checked').val() == undefined || $('input[name="countselection"]:checked').val() == undefined){
+    } else {
+        var count = localStorage.getItem("cartNumber"); //get global
+        count++; //update count
+        localStorage.setItem("cartNumber",count); //update global
+        updateCartIndicator();
+    }
 });
 
 function updateCartIndicator(){

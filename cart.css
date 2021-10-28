@@ -110,3 +110,11 @@ html {
     color: #EB7B6D;
     text-decoration: none;
 }
+
+.removeitem {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #CD6D70;
+    border-radius: 10px;
+}
