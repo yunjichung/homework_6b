@@ -81,7 +81,11 @@ $('#addtocart').click(function(){
 });
 
 function updateCartIndicator(){
-    if (localStorage.getItem("cartNumber")==0){
+    if (localStorage.getItem("cartNumber")==null){
+        $(".cartnav").text("Cart");
+        localStorage.setItem("cartNumber", 0);
+        localStorage.setItem("globalCart", JSON.stringify([]));       
+    } else if (localStorage.getItem("cartNumber")==0){
         $(".cartnav").text("Cart");
     } else {
         console.log(typeof localStorage.getItem("cartNumber"));
