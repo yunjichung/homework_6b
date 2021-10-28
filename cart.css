@@ -104,3 +104,9 @@ html {
     right: 300px;
     bottom: 50px;
 }
+
+#clearCartBtn {
+
+    color: #EB7B6D;
+    text-decoration: none;
+}
