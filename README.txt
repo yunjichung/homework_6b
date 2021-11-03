@@ -2,3 +2,5 @@ Bonus Points
 
 - I added a carousel at the bottom of the "individual product page"
 - I added an interesting JavaScript function of showing an alert if the user doesn't select both a glaze and a count
+
+READ "Bonus Points Explanations' PDF for a more detailed explanation + screenshots
