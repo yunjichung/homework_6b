@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
         <script defer src="product.js"></script>
+        <script defer src="carousel.js"></script>
         <script src="jquery-3.6.0.min.js"></script>
     </head>
 
@@ -77,7 +78,21 @@
             </div>
         </div>
 
-        <div id="ourfav">
+        <div class="car_container">
+            <button class="car_button" id="leftbutton"></button>
+            <button class="car_button" id="rightbutton"></button>
+            <div class="car_rolls">
+                <ul>
+                    <li><img class="car_image" src="images/blackberry.png" alt="blackberry"></li>
+                    <li><img class="car_image" src="images/walnut.png" alt="walnut"></li>
+                    <li><img class="car_image" src="images/original.png" alt="original gluten free"></li>
+                    <li><img class="car_image" src="images/pumpkin.png" alt="pumpkin spice"></li>
+                    <li><img class="car_image" src="images/caramel.png" alt="caramel pecan"></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- <div id="ourfav">
             <ul class="ulfav">
                 <li class="lifav">
                     <div class="fav0">
@@ -121,7 +136,7 @@
                 </li>
                 </div>
             </ul>
-        </div>
+        </div> -->
     <script src="nav.js"></script>
     </body>
 </html>

@@ -1,1 +1,0 @@
-Prototype with HTML and CSS additional site pages or add product detail pages for more than one product item: Pages for 'Original' and 'Blackberry' completed

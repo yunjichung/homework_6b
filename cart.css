@@ -88,6 +88,11 @@ html {
     padding: 10px 40px 10px 40px; display: inline-block; /*layout settings*/
 }
 
+.paynow:hover {
+    cursor: pointer;
+    opacity: 80%
+}
+
 .hovercontainer {
     z-index: -1;
     position: fixed;
@@ -117,4 +122,10 @@ html {
     padding: 10px 20px;
     background-color: #CD6D70;
     border-radius: 10px;
+    font-family: 'Rowdies';
+}
+
+.removeitem:hover {
+    cursor: pointer;
+    opacity: 80%
 }
